@@ -1,0 +1,85 @@
+<!-- 
+* Copyright 2016 Carlos Eduardo Alfaro Orellana
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>FACTORIALES</title>
+	
+     <!-- Normalize CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+    
+     <!-- Materialize CSS -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+    
+     <!-- Material Design Iconic Font CSS -->
+	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    
+    <!-- Malihu jQuery custom content scroller CSS -->
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    
+    <!-- Sweet Alert CSS -->
+    <link rel="stylesheet" href="css/sweetalert.css">
+    
+    <!-- MaterialDark CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-cover" id="login">
+    <div class="container-login center-align">
+        <div style="margin:15px 0;">
+           
+            <p>PROGRAMA FACTORIAL</p>   
+        </div>
+        
+        <form method="post" action="indexes.php">
+
+
+            <div class="input-field">
+                <input id="UserName" type="text" class="validate" name="P1">
+                <label for="UserName">&nbsp; Ingrese el valor de N </label>
+            </div>
+          
+      <p>
+        <input type="radio" name="radio" id="S2" value="NORMAL" />
+        <label for="S2"></label>
+        NORMAL</p>
+      <p>
+        <input type="radio" name="radio" id="R2" value="PARES" />
+        <label for="R2"></label>
+        PARES</p>
+      <p>
+        <input type="radio" name="radio" id="M2" value="IMPARES" />
+        <label for="M2"></label>
+        IMPARES</p>
+      <p>
+        <input type="radio" name="radio" id="D2" value="ENTRE" />
+        <label for="D2"></label>
+        DIV ENTRE 5
+      </p>
+   
+
+            <button class="waves-effect waves-teal btn-flat"> CALCULAR &nbsp; <i class="zmdi zmdi-mail-send"></i></button>
+        </form>
+        <div class="divider" style="margin: 20px 0;"></div>
+        
+    </div>
+    
+    <!-- Sweet Alert JS -->
+    <script src="js/sweetalert.min.js"></script>
+    
+    <!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-2.2.0.min.js"><\/script>')</script>
+    
+    <!-- Materialize JS -->
+	<script src="js/materialize.min.js"></script>
+    
+    <!-- Malihu jQuery custom content scroller JS -->
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    
+    <!-- MaterialDark JS -->
+	<script src="js/main.js"></script>
+</body>
+</html>
